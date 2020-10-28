@@ -13,6 +13,10 @@ body {
     padding:0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .blanked {
     width:100%;
     height:100%;
@@ -153,6 +157,10 @@ nav {
     justify-content:space-between;
 }
 
+.second-nav .menu > ul.item-menu a {
+    color:rgb(255, 255, 255, 0.9);
+}
+
 .second-nav .menu > ul.item-menu li {
     width:120px;
     height:70px;
@@ -168,6 +176,15 @@ nav {
     display:flex;
     align-items:center;
     justify-content:center;
+    text-align: center
+}
+
+.second-nav .contact-me a {
+    width:200px;
+}
+
+.second-nav .contact-me a button {
+    width:100%;
 }
 
 .second-nav .contact-me .toggle-contact-form {
@@ -276,6 +293,6 @@ nav {
     }
 
     .second-nav .contact-me .toggle-contact-form {
-        width:calc(100% - 64px); 
+        width:100%; 
     }
 }
